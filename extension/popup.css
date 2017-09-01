@@ -1,0 +1,38 @@
+* { margin: 0; padding: 0; }
+* { box-sizing: border-box }
+*:before, *:after { box-sizing: border-box }
+body {
+    font-family: "Hiragino Sans GB", "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #333;
+}
+
+.helloworld {
+    white-space: nowrap;
+    text-align: center;
+}
+.helloworld-head {
+    padding: 5px 20px;
+    border-bottom: 1px solid #eee;
+}
+.helloworld-head__title {
+    font-size: 14px;
+    color: #666;
+}
+.helloworld-body {
+    padding: 10px 20px
+}
+.helloworld-body__time {
+    font-size: 18px;
+    color: #FB7575;
+}
+.helloworld-foot {
+    padding: 2px 20px;
+    background-color: #eee;
+}
+.helloworld-foot__meta {
+    font-size: 12px;
+    color: #999;
+}
